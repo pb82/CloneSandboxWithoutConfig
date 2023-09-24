@@ -2,8 +2,8 @@
 ansibleLint:
   configFile: ".ansible-lint.yml"
 schedule:
-  interval: "every 5 minutes"
-  time: "09:00"
-  # Use Indian Standard Time (UTC +05:30)
-  timezone: "Asia/Calcutta"
+  interval: "daily"
+  # time: "09:00"
+  # # Use Indian Standard Time (UTC +05:30)
+  # timezone: "Asia/Calcutta"
 open-pull-requests-limit: 3
