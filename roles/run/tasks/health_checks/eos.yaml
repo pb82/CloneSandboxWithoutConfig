@@ -12,3 +12,10 @@
     parser:
       name: ansible.netcommon.content_templates
     set_fact: bgp_health2
+
+- name: and again
+  ansible.utils.cli_parse:
+    command: show ip bgp summary again
+    parser:
+      name: ansible.netcommon.content_templates
+    set_fact: bgp_health3
